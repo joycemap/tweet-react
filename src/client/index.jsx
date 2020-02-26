@@ -18,3 +18,10 @@ const element = document.getElementById('app');
 ReactDOM.render(<App />, element );//
 
 console.log("tweet react");
+
+<Tweet>
+  <User/>
+  <Entities>
+    <UrlEntity/>
+  </Entities>
+</Tweet>
